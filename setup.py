@@ -34,7 +34,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tomasz-gawron-wttech/big_vision/",
     license="Apache 2.0",
-    packages=['biv_vision'],
+    packages=['big_vision'],
     include_package_data=True,
     install_requires=install_requires_core
 )
