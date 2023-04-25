@@ -1,3 +1,5 @@
+from setuptools import setup
+
 install_requires_core = [
     "absl-py>=1.0.0",  
     "numpy>=1.12",
