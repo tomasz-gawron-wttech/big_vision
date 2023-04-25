@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 
 install_requires_core = [
     "absl-py>=1.0.0",  
@@ -34,7 +35,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tomasz-gawron-wttech/big_vision/",
     license="Apache 2.0",
-    packages=['big_vision'],
+    packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires_core
 )
